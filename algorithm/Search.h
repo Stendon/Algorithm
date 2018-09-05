@@ -64,6 +64,16 @@ bool binary_search(T arr[], size_t low, size_t high, T find_value)
 	return false;
 }
 
+///KMP
+template < typename T>
+bool kmp_search(T target[], size_t target_length, T pattern[], size_t pattern_length)
+{
+	if (target_length < pattern_length || target_length <= 0)
+		return false;
+
+}
+
+
 void search_test()
 {
 	int arr[] = {0,4,2,6,9,1,5,7,8,3};

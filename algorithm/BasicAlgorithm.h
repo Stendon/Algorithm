@@ -58,5 +58,28 @@ void basic_alg_test_case()
 	std::cout << sum << std::endl;
 }
 
+//组合，生成子集
+//生成n个元素的所有子集，包括空集
+
+template < typename T >
+void Combination(T arr[], size_t n)
+{
+	for (size_t i = 0; i <= n; ++i)
+	{
+		Composite(arr, n, i);
+	}
+}
+
+//C[n:k]
+template < typename T >
+void Composite(T arr[], size_t n, size_t k)
+{
+
+}
+
+void hanota(int n, char a, char b, char c)
+{
+
+}
 
 #endif

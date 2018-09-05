@@ -138,4 +138,34 @@ void quick_sort(T *arr, int low, int high)
 	}
 }
 
+/*count sort
+*/
+template < typename T >
+bool count_sort(T arr[], size_t length)
+{
+	//check for array 
+	if (length <= 0)
+		return false;
+	
+	//get maximum value
+	T max = arr[0];
+	for (size_t i = 1; i < length; ++i)
+	{
+		if (arr[i] > max)
+			max = arr[i];
+	}
+
+	//
+	T *temp = new T[length];
+	for (size_t i = 0; i < length; ++i)
+	{
+		temp[arr[i]]++;
+	}
+
+	//copy to original array
+	for (size_t i = 0; i < length; ++i)
+	{
+
+	}
+}
 #endif

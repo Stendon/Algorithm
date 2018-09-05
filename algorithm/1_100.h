@@ -9,17 +9,9 @@
 // 0001 
 void print_circle_array()
 {
-	std::cout << "please input a number[1,9]:" << std::endl;
-
 	int n = 0, k = 1, loop = 0, sum = 0;
 	bool w = false, d = false;
 	std::cin >> n;
-
-	if (n < 0 || n > 9)
-	{
-		std::cerr << "input error!" << std::endl;
-		return;
-	}
 
 	int **p = new int *[n];
 	for (int i = 0; i < n; ++i)
@@ -79,9 +71,7 @@ void print_circle_array()
 		sum += (p[i][i] + p[i][j]);
 	}
 
-	std::cout << std::endl;
-
-	//std::cout << sum - p[n / 2][n / 2] << std::endl;
+	std::cout << sum - p[n / 2][n / 2] << std::endl;
 }
 
 

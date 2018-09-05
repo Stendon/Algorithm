@@ -5,7 +5,7 @@
 #include "Search.h"
 #include "Sort.h"
 
-//test
+//≤‚ ‘
 void main_test()
 {
 	//int a[] = {3,9,8,4,6,1,2,5,7,10};

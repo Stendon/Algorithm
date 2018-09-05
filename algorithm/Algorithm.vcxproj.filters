@@ -30,6 +30,9 @@
     <ClInclude Include="Search.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="BasicAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
