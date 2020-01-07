@@ -1,33 +1,29 @@
 
 
-
 #include <iostream>
-#include <iomanip>
+#include <string>
 #include "1_100.h"
-#include <vector>
 
-class A
+int evaluation(const std::string& pattern, int left, int right, int length)
 {
-public:
-	virtual ~A()
+	int equal_num = 0;
+	for (int i = left, j = right; i >= 0 && j < length; --i, ++j)
 	{
-		std::cout << "A()" << std::endl;
+		if (pattern[i] == pattern[j])
+			++equal_num;
 	}
-};
+	return equal_num;
+}
 
-class B : public A
+int max(int a, int b, int c)
 {
-public:
-	~B()
-	{
-		std::cout << "B()" << std::endl;
-	}
-};
+	if (a < b)
+		return b > c ? 1 : 2;
+	return a > c ? 0 : 2;
+}
 
 int main(int argc, char**argv)
 {
-	A * pb = new B();
-	delete pb;
-	//print_circle_array();
+	print_circle_array();
 	return 0;
 }

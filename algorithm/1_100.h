@@ -71,7 +71,7 @@ void print_circle_array()
 		sum += (p[i][i] + p[i][j]);
 	}
 
-	std::cout << sum - p[n / 2][n / 2] << std::endl;
+	//std::cout << sum - p[n / 2][n / 2] << std::endl;
 }
 
 

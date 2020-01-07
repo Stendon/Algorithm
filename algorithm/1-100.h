@@ -305,7 +305,7 @@ void question_1159()
 	{
 
 		if (num_of_string < 3 || num_of_string > 5000)
-			return ;
+			return;
 
 		std::string pattern = "";
 		std::cin >> pattern;
@@ -356,5 +356,4 @@ void question_1159()
 		std::cout << count << std::endl;
 		count = 0;
 	}
-
 }

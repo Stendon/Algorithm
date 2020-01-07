@@ -22,6 +22,9 @@
     <Filter Include="Header Files\Judge_Online">
       <UniqueIdentifier>{8127b75e-e635-4779-8c9f-4a6f119fe03b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Leetcode">
+      <UniqueIdentifier>{ac7a03f0-2e5a-497f-b21e-3d48577e4a2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sort.h">
@@ -53,6 +56,9 @@
     </ClInclude>
     <ClInclude Include="1_100.h">
       <Filter>Header Files\Judge_Online</Filter>
+    </ClInclude>
+    <ClInclude Include="1-30.h">
+      <Filter>Header Files\Leetcode</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
